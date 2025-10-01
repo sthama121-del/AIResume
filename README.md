@@ -65,18 +65,18 @@ pip install -r requirements.txt
 
 ### 4. Set Up Environment Variables
 
-The `.env` file is already configured with your OpenRouter API key:
+Create a `.env` file in the project root with your OpenRouter API key:
 
 ```env
-OPENROUTER_API_KEY=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
+OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```
 
 **Note**: The `.env` file is excluded from Git via `.gitignore` to protect your API key.
 
-If you need to get a new API key:
+To get your API key:
 1. Visit [OpenRouter](https://openrouter.ai/)
 2. Sign up/login and create an API key
-3. Replace the key in `.env`
+3. Add the key to your `.env` file
 
 ## 🎮 Usage
 
